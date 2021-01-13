@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -24,9 +25,10 @@ public class loginIT {
 
     @BeforeAll
     public static void setupClass() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-//WebDriverManager.firefoxdriver().setup();
+      
+       
+WebDriverManager.chromedriver().setup();
+ driver = new ChromeDriver();
 //WebDriverManager.operadriver().setup();
 //WebDriverManager.phantomjs().setup();
 //WebDriverManager.edgedriver().setup();
