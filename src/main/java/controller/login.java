@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author nikita
  */
-@WebServlet(name = "login", urlPatterns = {"/login"}, loadOnStartup = 1) //TODO:  не работает в glasfish ??! добавить сервлеты в web.xml
+@WebServlet(name = "login", urlPatterns = {"/login"}, loadOnStartup = 1) 
 public class login extends HttpServlet {
 
     @Override

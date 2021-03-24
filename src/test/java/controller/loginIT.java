@@ -33,7 +33,7 @@ WebDriverManager.chromedriver().setup();
 //WebDriverManager.phantomjs().setup();
 //WebDriverManager.edgedriver().setup();
 //WebDriverManager.iedriver().setup();
-        driver.get("http://localhost:8080/gameServer/");
+        driver.get("http://localhost:8080/gameServer/personalAccount.jsp");
     }
 
     @Test
